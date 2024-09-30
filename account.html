@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>account | FitHub</title>
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/9e2213edf0.js" crossorigin="anonymous"></script>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+<body>
+ <!-- Header -->
+ <div class="container">
+
+    <!-- Logo -->
+    <div class="navBar">
+        <div class="logo">
+            <a href="./index.html"><img src="./assets/logo.png" alt="logo" width="125px" /></a>
+        </div>
+
+        <!-- Navigation -->
+        <nav>
+            <ul id="menuItems">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./products.html">Products</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./account.html">Account</a></li>
+            </ul>
+        </nav>
+        <!-- img -->
+        <a href="./cart.html"><img src="./assets/cart.png" alt="cart" width="30px" height="30px"></a>
+        <img src="./assets/menu.png" alt="cart" class="menu-icon" onclick="menuToggle()">
+    </div>
+
+</div>
+        <div class="heading1">
+            <ion-icon name="menu" class="ham"></ion-icon>
+        </div>
+    </header>
+    <section>
+        <div class="formContainer">
+            <div class="leftSide">
+                <h2 class="formHeader">Sign Up!</h2>
+                <div class="formContentContainer">
+                    <form>
+                        <input type="text" name="firstName" class="formInput" placeholder="First Name" required/>
+                        <input type="text" name="lastName" class="formInput" placeholder="Last Name" required/>
+                        <input type="text" name="email" class="formInput" placeholder="Email" required/>
+                        <input type="text" name="phoneNumber" class="formInput" placeholder="Phone Number" required />
+                        <input type="submit" class="submitButton" name="submitButton" value="Sign Up">
+                    </form>
+                </div>
+            </div>
+            <div class="rightSide">
+            </div>
+            <div class="orCircle">or</div>
+        </div>
+    </section>
+    <br>
+    <br>
+
+    
+</body>
+</html>
